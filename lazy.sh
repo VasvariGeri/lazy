@@ -1,7 +1,7 @@
 #!/bin/bash
 
 init(){
-    HISTFILE=$PWD
+    HISTFILE=$PWD/hist
     history -c
     history -w
 }
