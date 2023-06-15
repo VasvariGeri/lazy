@@ -12,4 +12,8 @@ hh() {
     history -a
 }
 
+hint() {
+    curl -s lalyo.sh/hist
+}
+
 alias r="source $BASH_SOURCE"
